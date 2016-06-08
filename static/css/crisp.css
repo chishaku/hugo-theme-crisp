@@ -19,7 +19,7 @@ body {
 /* Blocks */
 header {
 	border-right: 1px #eee solid;
-	padding: 2em;
+	padding: 0.4em 2em;
 	position:fixed;
 	top: 0;
 	left: 0;
@@ -181,6 +181,10 @@ h3.post-title {
 	padding-bottom:0.9em;
 	border-bottom: 1px solid #eee;
 	font-size: 1.2em;
+	color: #444;
+}
+span.post-title-timestamp {
+	font-size: .7em;
 	color: #444;
 }
 .post-title .feature-star {
