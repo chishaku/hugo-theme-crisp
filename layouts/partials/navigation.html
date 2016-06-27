@@ -1,0 +1,4 @@
+{{ $baseurl := .Site.BaseURL }}
+{{range $element := .Site.Params.navigation}}
+    <h6><a href="{{ $baseurl }}{{ index $element 0 }}">{{ index $element 1 }}</a></h6>
+{{ end }}
